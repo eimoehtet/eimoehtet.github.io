@@ -5,7 +5,8 @@
 body{
     background-color: powderblue;
     color:#ECEFF1;
-
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
 }
 .head{
     text-align: center;
@@ -19,51 +20,43 @@ ul{
     margin-left: 2px;
 }
 .container{
-
     width: 800px;
-    height: 800px;
-    margin: auto;
-    padding-top: 20px;
+    margin: 45px auto;
     box-shadow:0px 5px 5px 2px  #888888;
 }
 .sub-container{
+    background-color: #FFF;
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-   
-    
+    padding: 20px;
 }
 .divCol1{
-    background-color: #fff;
+    width: 40%;
     color: black;
-    width: 300px;
-    height: 600px;
-    padding-left: 20px;
-   
 }
-#item{
-    list-style: none;
+.item{
+    font-size: 16px;
+    font-weight: 550;
 }
 .divRow1{
-    border-bottom: 1px solid gray;
-    
+    border-bottom: 1px solid rgb(209, 204, 204); 
 }
 li{
     list-style: none;
 }
-.divCol2{
-    background-color: #fff;
-    color: black;
-    width: 500px;
-    height: 600px;
-    padding-left: 20px;
-   
+.title{
+    font-weight: 400;
 }
+.divCol2{
+    color: black;
+    width: 60%;
+    padding-left: 20px;
+}
+
 .profile-img{
     width: 100px;
-    border-radius: 50%;
+    border-radius: 60%;
     border: 5px solid;
+    margin-top: 15px;
 }
 
 @media screen and (max-width : 800px) {
@@ -72,7 +65,20 @@ li{
     }
 }
 
-  .facebook {   
-    background: #3b5998;   
-    color: white;  
-    }     
+.fa-facebook-square{
+    font-size: 28px;
+    color:rgb(60, 60, 82);;
+}   
+.fa-linkedin {
+    font-size: 28px;
+    color:rgb(60, 60, 82);;
+} 
+.fa-instagram-square{
+    font-size: 28px;
+    color:rgb(60, 60, 82);
+}
+.sub-title{
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
