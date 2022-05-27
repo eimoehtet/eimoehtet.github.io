@@ -86,3 +86,24 @@ a:hover{
 i:hover{
     color:rgb(103, 116, 173)
 }
+@media only screen and (max-width: 600px) {
+    .container{
+        margin:0
+    }
+   .sub-container{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   .divCol1{
+       padding-left: 10px;
+       padding-right: 10px;
+       width: 100%;
+       box-sizing: border-box;
+   }
+   .divCol2{
+    padding-left: 10px;
+    padding-right: 10px;
+       width: 100%;
+       box-sizing: border-box;
+   }
+  }
